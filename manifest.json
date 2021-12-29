@@ -1,0 +1,8 @@
+{
+  "name": "Figma Plugin Example",
+  "id": "1056880989752387690",
+  "api": "1.0.0",
+  "main": "dist/code.js",
+  "editorType": ["figma"],
+  "ui": "dist/ui.html"
+}

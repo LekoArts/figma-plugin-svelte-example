@@ -1,0 +1,35 @@
+{
+  "name": "figma-plugin-svelte-example",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "LekoArts <lekoarts@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "rollup -c",
+    "dev": "rollup -c -w",
+    "clean": "rm -rf dist",
+    "typecheck": "tsc --noEmit",
+    "lint": "prettier --check . --ignore-path .gitignore",
+    "lint:fix": "prettier --write . --ignore-path .gitignore"
+  },
+  "devDependencies": {
+    "@figma/plugin-typings": "^1.40.0",
+    "@rollup/plugin-commonjs": "^21.0.1",
+    "@rollup/plugin-html": "^0.2.4",
+    "@rollup/plugin-node-resolve": "^13.1.1",
+    "@rollup/plugin-typescript": "^8.3.0",
+    "cssnano": "^5.0.14",
+    "figma-plugin-ds-svelte": "^1.2.0",
+    "postcss": "^8.4.4",
+    "prettier": "^2.5.1",
+    "prettier-plugin-svelte": "^2.5.1",
+    "rollup": "^2.61.1",
+    "rollup-plugin-postcss": "^4.0.2",
+    "rollup-plugin-svelte": "^7.1.0",
+    "rollup-plugin-svg": "^2.0.0",
+    "rollup-plugin-terser": "^7.0.2",
+    "svelte": "^3.44.2",
+    "tslib": "^2.3.1",
+    "typescript": "^4.5.2"
+  }
+}
