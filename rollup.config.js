@@ -45,7 +45,7 @@ const mainConfig = {
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>Theme UI</title>
+    <title>Figma Plugin Example</title>
   </head>
   <body>
     <script>${bundle[`bundle.js`].code}</script>
