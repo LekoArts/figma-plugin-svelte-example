@@ -10,7 +10,7 @@ You can also see a real world example of this stack at [figma-theme-ui][figma-th
 
 If you want to use this example as a template for your own project, you can remove `src/Input.svelte` and `manifest.json`. Clear the contents of `src/App.svelte` and `src/code.ts`.
 
-Go to a Figma project and right-click on the canvas to get the context menu. Go to Plugins => Development => New Plugin... . Then choose either the Design + Figjam or Design category. Then give it a name and choose the Empty preset. Save the `manifest.json` in the directory of this template.
+Go to a Figma project and right-click on the canvas to get the context menu. Go to Plugins => Development => New Plugin... . Then choose either the Design + Figjam or Design category. Then give it a name and choose the Empty preset. Save the `manifest.json` in the directory of this template. Change the `main` entry to `dist/code.js` and the `ui` entry to `dist/ui.html`.
 
 Then, you can start the development server with:
 
