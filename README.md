@@ -1,6 +1,6 @@
 # Figma Plugin made with Svelte
 
-This is an example repository for a tutorial: [TODO][tutorial]
+This is an example repository for a tutorial: [Creating a Figma Plugin with Svelte][tutorial]
 
 It shows you how to use [Svelte][svelte], [TypeScript][typescript], and [Rollup][rollup] to build a plugin for [Figma][figma]. The plugin fetches a random image from [Unsplash][unsplash] and adds it to the canvas of the project.
 
@@ -22,7 +22,7 @@ Under the same context menu you now can run the example plugin.
 
 Please see [Figma Plugin DS Svelte][ds-svelte] for usage instructions on the components and CSS styles.
 
-[tutorial]: https://www.google.de
+[tutorial]: https://www.lekoarts.de/javascript/creating-a-figma-plugin-with-svelte
 [svelte]: https://svelte.dev/
 [typescript]: https://www.typescriptlang.org/
 [rollup]: https://rollupjs.org/guide/en/
